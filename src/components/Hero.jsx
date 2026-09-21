@@ -7,16 +7,16 @@ const Hero = () => {
       <div className="text-center px-4 max-w-4xl mx-auto">
         {/* Profile Photo */}
         <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl">
-          <img 
-            src="/images/Zacki.jpeg" 
-            alt="Zakaria Adow Iman" 
+          <img
+            src="/images/Zacki.jpeg"
+            alt="Zakaria Adow Iman"
             className="w-full h-full object-cover"
             onError={(e) => {
               e.target.src = 'https://ui-avatars.com/api/?name=Zakaria+Adow+Iman&background=3b82f6&color=fff&size=128'
             }}
           />
         </div>
-        
+
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
           Hi, I'm <span className="text-blue-600 dark:text-blue-400">ZAKARIA ADOW IMAN</span>
         </h1>
@@ -36,9 +36,13 @@ const Hero = () => {
               Contact Me
             </button>
           </Link>
-          <button className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+          <a
+            href="/Zakaria_Adow_CV.pdf"
+            download="Zakaria_Adow_CV.pdf"
+            className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-all inline-block"
+          >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
     </section>
