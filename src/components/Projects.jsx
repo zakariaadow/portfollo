@@ -4,15 +4,6 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Zacks Business Online',
-      description: 'E-commerce platform based in Garissa, Kenya selling premium smartphones including iPhone 15 Pro Max (KSh 250,000), Samsung Galaxy S24 Ultra (KSh 230,000), Google Pixel 8 Pro (KSh 180,000), and Xiaomi 13 Pro (KSh 120,000). Features real-time stock status and secure checkout.',
-      tech: ['React', 'HTML', 'CSS', 'JavaScript'],
-      image: '/images/zacks businessonline.jpg',
-      demoLink: '#',
-      featured: true
-    },
-    {
-      id: 2,
       title: 'Zacks Real Estate',
       description: 'Property listing platform for finding dream homes in Garissa. Buy or rent properties in Bula Sigaray, Bula Madina, Bula Punda, and Bula Hagar. Features property listings, user dashboard, and property filtering.',
       tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript'],
@@ -21,16 +12,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 3,
-      title: 'My Project',
-      description: 'Personal project showcasing modern web development skills and creative solutions.',
-      tech: ['React', 'HTML', 'CSS', 'JavaScript'],
-      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600',
-      demoLink: '#',
-      featured: false
-    },
-    {
-      id: 4,
+      id: 2,
       title: 'My Market App - HIILDUMAR Beauty Hair',
       description: 'E-commerce platform for 100% pure, organic hair oils. Features include product showcase, customer testimonials, and online shopping. Serves 5000+ happy customers with 4.9★ rating and 24/7 customer support.',
       tech: ['React', 'HTML', 'CSS', 'JavaScript'],
@@ -39,7 +21,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 5,
+      id: 3,
       title: 'GAWASCO Management System',
       description: 'Water services management system for Garissa Water and Sewerage Company. Handles customer records, billing, meter readings, and service requests with an admin dashboard.',
       tech: ['React', 'Tailwind CSS', 'JavaScript'],
@@ -48,7 +30,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 6,
+      id: 4,
       title: 'Somali National University System',
       description: 'University management platform for Somali National University. Features student registration, course management, results, and administrative dashboards.',
       tech: ['React', 'Tailwind CSS', 'JavaScript'],
@@ -57,7 +39,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 7,
+      id: 5,
       title: 'LMS App',
       description: 'Learning Management System for online courses. Students can enroll, track lessons, submit assignments, and instructors manage content through an admin panel.',
       tech: ['React', 'Tailwind CSS', 'JavaScript'],
@@ -66,7 +48,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 8,
+      id: 6,
       title: 'Urban Chic Beauty Salon',
       description: 'Beauty salon booking and showcase platform. Features service listings, appointment booking, gallery, and customer testimonials for a modern salon experience.',
       tech: ['React', 'Tailwind CSS', 'JavaScript'],
@@ -75,7 +57,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 9,
+      id: 7,
       title: 'Kalal Hospital System',
       description: 'Hospital management system for handling patient records, appointments, doctor schedules, and medical reports. Features a clean admin dashboard for managing hospital operations efficiently.',
       tech: ['React', 'Tailwind CSS', 'JavaScript'],
