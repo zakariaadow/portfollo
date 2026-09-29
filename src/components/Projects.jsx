@@ -52,7 +52,7 @@ const Projects = () => {
       title: 'Somali National University System',
       description: 'University management platform for Somali National University. Features student registration, course management, results, and administrative dashboards.',
       tech: ['React', 'Tailwind CSS', 'JavaScript'],
-      image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600',
+      image: '/images/SNU.jpeg',
       demoLink: 'https://somali-national-university-flame.vercel.app/',
       featured: false
     },
@@ -72,6 +72,15 @@ const Projects = () => {
       tech: ['React', 'Tailwind CSS', 'JavaScript'],
       image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600',
       demoLink: 'https://urban-chic-boutiq-real-estate-s-projects1.vercel.app/',
+      featured: false
+    },
+    {
+      id: 9,
+      title: 'Kalal Hospital System',
+      description: 'Hospital management system for handling patient records, appointments, doctor schedules, and medical reports. Features a clean admin dashboard for managing hospital operations efficiently.',
+      tech: ['React', 'Tailwind CSS', 'JavaScript'],
+      image: '/images/kalal.png',
+      demoLink: 'https://kalal-hospital-system.vercel.app/',
       featured: false
     }
   ]
